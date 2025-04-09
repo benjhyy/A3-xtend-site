@@ -1,57 +1,99 @@
 body {
-  font-family: 'Poppins', sans-serif;
   margin: 0;
-  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to right, #fbd3e9, #bb377d);
   color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 header {
-  background: #f7f7f7;
-  padding: 2rem;
   text-align: center;
-  border-bottom: 1px solid #ddd;
-}
-header h1 {
-  margin: 0;
-  font-size: 2rem;
-}
-header a {
-  color: #333;
-  text-decoration: none;
-  display: block;
-  margin-top: 0.5rem;
-}
-.hero {
-  text-align: center;
-  padding: 3rem 1rem;
-  background: #f9f9f9;
-}
-.hero h2 {
-  font-size: 1.8rem;
-}
-.booking {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-.booking input,
-.booking textarea,
-.booking button {
-  width: 100%;
-  padding: 0.8rem;
-  margin: 0.5rem 0;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-.booking button {
-  background-color: #111;
+  padding: 40px 20px;
   color: #fff;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
 }
-footer {
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.hero {
+  background: #fff;
+  padding: 30px;
+  margin: 20px;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  color: #999;
+}
+
+.hero h2 {
+  color: #bb377d;
+  margin-bottom: 10px;
+}
+
+.booking {
+  background: #fff;
+  padding: 30px;
+  margin: 20px;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.booking h2 {
+  color: #bb377d;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.btn {
+  background-color: #bb377d;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #9c2c68;
+}
+
+footer {
+  margin: 40px 0 20px;
+  color: #fff;
+  font-size: 0.9em;
 }
