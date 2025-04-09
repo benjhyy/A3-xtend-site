@@ -1,99 +1,69 @@
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(to right, #fbd3e9, #bb377d);
-  color: #333;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4faff;
+  color: #2b3d5b;
 }
 
 header {
+  background-color: #1e4db7;
+  color: white;
   text-align: center;
-  padding: 40px 20px;
-  color: #fff;
+  padding: 2rem;
 }
 
 header h1 {
-  font-size: 2.5em;
-  margin-bottom: 0.2em;
+  margin: 0;
+  font-size: 2.5rem;
 }
 
 header p {
-  font-size: 1.2em;
-  margin-bottom: 1em;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
 }
 
-.hero {
-  background: #fff;
-  padding: 30px;
-  margin: 20px;
-  width: 90%;
-  max-width: 500px;
-  border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  text-align: center;
+.services, .booking {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
 }
 
-.hero h2 {
-  color: #bb377d;
-  margin-bottom: 10px;
+.services h2, .booking h2 {
+  color: #1e4db7;
 }
 
-.booking {
-  background: #fff;
-  padding: 30px;
-  margin: 20px;
-  width: 90%;
-  max-width: 500px;
-  border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+.services ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-.booking h2 {
-  color: #bb377d;
-  text-align: center;
-  margin-bottom: 20px;
+.services li {
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+  position: relative;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+.services li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #1e4db7;
 }
 
-input, textarea {
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  font-size: 1em;
-}
-
-textarea {
-  resize: vertical;
-  min-height: 80px;
-}
-
-.btn {
-  background-color: #bb377d;
-  color: #fff;
-  padding: 12px;
-  border: none;
-  border-radius: 8px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background 0.3s ease;
-  text-decoration: none;
+.book-btn {
   display: inline-block;
-  text-align: center;
-}
-
-.btn:hover {
-  background-color: #9c2c68;
+  background-color: #1e4db7;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 footer {
-  margin: 40px 0 20px;
-  color: #fff;
-  font-size: 0.9em;
+  text-align: center;
+  padding: 1rem;
+  background-color: #e5efff;
+  color: #1e4db7;
+  margin-top: 3rem;
 }
