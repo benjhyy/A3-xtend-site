@@ -1,0 +1,57 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+header {
+  background: #f7f7f7;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  margin-top: 0.5rem;
+}
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #f9f9f9;
+}
+.hero h2 {
+  font-size: 1.8rem;
+}
+.booking {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.booking input,
+.booking textarea,
+.booking button {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.booking button {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #999;
+}
